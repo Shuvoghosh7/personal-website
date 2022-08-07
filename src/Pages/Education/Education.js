@@ -13,7 +13,7 @@ const Education = () => {
                     <div class="box" style={{ borderLeft: ".2rem solid white" }} >
 
                         <p className='icons'>
-                            <FaGraduationCap className='text-4xl ml-5 mt-3 text-black' />
+                            <FaGraduationCap className='text-4xl ml-5 mt-5 text-black' />
                         </p>
                         <h5 className='year'>2021</h5>
                         <h3>Computer Science & Engineering</h3>
@@ -23,7 +23,7 @@ const Education = () => {
                     </div>
 
                     <div class="box" style={{ borderLeft: ".2rem solid white" }}>
-                        <p className='icons'><FaGraduationCap className='text-4xl ml-5 mt-3 text-black' /></p>
+                        <p className='icons'><FaGraduationCap className='text-4xl ml-5 mt-5 text-black' /></p>
                         <h5 className='year'>2014</h5>
                         <h3>Higher Secondary Certificate</h3>
                         <p> Hajigonj Model Government College.</p>
@@ -32,7 +32,7 @@ const Education = () => {
                     </div>
 
                     <div class="box" style={{ borderLeft: ".2rem solid white" }}>
-                        <p className='icons'><FaGraduationCap className='text-4xl ml-5 mt-3 text-black' /></p>
+                        <p className='icons'><FaGraduationCap className='text-4xl ml-5 mt-5 text-black' /></p>
                         <h5 className='year'>2012</h5>
                         <h3>Secondary School Certificate</h3>
                         <p> Ujani Hazi Amiruddin Alekjan High School.</p>

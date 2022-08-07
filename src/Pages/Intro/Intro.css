@@ -1,0 +1,37 @@
+.about{
+    background: #202428 !important;
+    box-shadow: 10px 10px 19px #1c1e22, -20px -10px 19px #262a2e !important;
+    color: white;
+    padding: 20px;
+}
+
+.name-title {
+    background: -webkit-linear-gradient(right, #692074, #ae216b, #df4454, #f67a36);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 5.75rem;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+}
+.resume{
+    background: linear-gradient(270deg,#ae216b,#df4454,#f67a36);;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.resume:hover{
+    background:  linear-gradient(0deg,#692074,#ae216b,#df4454,#f67a36,#f1b51b);;
+}
+.icon{
+    border-radius: 5px;
+}
+.icon a{
+   font-size: 34px;
+}
+
+.icon:hover a{
+    color: #8FE3CF;
+}

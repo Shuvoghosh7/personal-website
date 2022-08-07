@@ -25,13 +25,13 @@
 .resume:hover{
     background:  linear-gradient(0deg,#692074,#ae216b,#df4454,#f67a36,#f1b51b);;
 }
-.icon{
+.intro-icons{
     border-radius: 5px;
 }
-.icon a{
+.intro-icons a{
    font-size: 34px;
 }
 
-.icon:hover a{
+.intro-icons:hover a{
     color: #8FE3CF;
 }

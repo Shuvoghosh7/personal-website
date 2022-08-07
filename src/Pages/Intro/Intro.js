@@ -1,9 +1,10 @@
 import React from 'react';
 import './Intro.css'
 import img from '../../Assets/myProfile.png';
-import { FaFacebookF } from 'react-icons/fa';
-import { FaLinkedinIn } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF } from 'react-icons/fa';
+
 import Typewriter from 'typewriter-effect';
 import resume from './Resume Of Shuvo Gosh.pdf'
 const Intro = () => {
@@ -32,13 +33,13 @@ const Intro = () => {
                         <img className='lg:w-[400px]' src={img} alt="" />
                     </div>
                     <div>
-                        <p className='icon bg-[#2B4865] p-2'>
-                            <a href="https://github.com/Shuvoghosh7" target="blank"><BsGithub className='icons git' /></a>
+                        <p className='intro-icons bg-[#2B4865] p-2'>
+                            <a href="https://github.com/Shuvoghosh7" target="blank"><BsGithub className='intro-icons git' /></a>
                         </p>
-                        <p className='icon mt-5 bg-[#2B4865] p-2'>
-                            <a href="https://www.linkedin.com/in/shuvogosh/" target="blank"> <FaLinkedinIn className='icons li' /></a></p>
-                        <p className='icon mt-5 bg-[#2B4865] p-2'>
-                            <a href="https://www.facebook.com/shuvo.gosh.5" target="blank"> <FaFacebookF className='icons fb' /> </a>
+                        <p className='intro-icons mt-5 bg-[#2B4865] p-2'>
+                            <a href="https://www.linkedin.com/in/shuvogosh/" target="blank"> <FaLinkedinIn className='intro-icons li' /></a></p>
+                        <p className='intro-icons mt-5 bg-[#2B4865] p-2'>
+                            <a href="https://www.facebook.com/shuvo.gosh.5" target="blank"> <FaFacebookF className='intro-icons fb' /> </a>
                         </p>
                     </div>
                 </div>

@@ -1,0 +1,58 @@
+.educations{
+    background: #202428 !important;
+    box-shadow: 10px 10px 19px #1c1e22, -20px -10px 19px #262a2e !important;
+    color: white;
+    padding: 20px;
+}
+
+.education .box-container .box{
+   
+    padding-left: 4rem;
+    position: relative;
+}
+.year{
+    font-size: 1.3rem;
+    background:#ff2e59;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 1.5rem;
+    width: 100px;
+}
+.education .box-container .box h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    background: -webkit-linear-gradient(right, #692074, #ae216b, #df4454, #f67a36);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.education .box-container .box p{
+    font-size: 17px;
+    color:#eee;
+    padding: 0.5rem 0;
+    font-weight: bold;
+}
+.education .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+    background:black;
+}
+.icon{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    background: #ae216b;
+}

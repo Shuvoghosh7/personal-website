@@ -1,0 +1,131 @@
+.my-skills{
+    background: #202428 !important;
+    box-shadow: 10px 10px 19px #1c1e22, -20px -10px 19px #262a2e !important;
+    color: white;
+    padding: 50px;
+}
+.skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 10px 10px 19px #1c1e22, -20px -10px 19px #262a2e !important;
+}
+.inner{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 19px #1c1e22, -20px -10px 19px #262a2e !important;
+}
+#number{
+    font-weight: 600px;
+    color: #555;
+}
+.skill-subject{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: change-color 2s linear forwards;
+}
+.reactJs {
+    animation: react 2s linear forwards !important;
+}
+.tailwindcss {
+    animation: tailwindcss 2s linear forwards !important;
+}
+.bootstrap {
+    animation: bootstrap 2s linear forwards !important;
+}
+.typeScript {
+    animation: typeScript 2s linear forwards !important;
+}
+.html{
+    animation: html 2s linear forwards !important;
+}
+.css{
+    animation: css 2s linear forwards !important;
+}
+.sass{
+    animation: sass 2s linear forwards !important;
+}
+.node-js{
+    animation: nodejs 2s linear forwards !important;
+}
+.ExpressJs{
+    animation: ExpressJs 2s linear forwards !important;
+}
+.MongoDB{
+    animation: MongoDB 2s linear forwards !important;
+}
+.svg-image{
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+@keyframes change-color {
+    100%{
+        stroke-dashoffset: 90;
+    }
+  }
+@keyframes react  {
+    100%{
+        stroke-dashoffset: 100;
+    }
+  }
+@keyframes tailwindcss  {
+    100%{
+        stroke-dashoffset: 0;
+    }
+  }
+@keyframes bootstrap  {
+    100%{
+        stroke-dashoffset: 80;
+    }
+  }
+@keyframes html{
+    100%{
+        stroke-dashoffset: 0;
+    }
+  }
+  @keyframes css  {
+    100%{
+        stroke-dashoffset: 80;
+    }
+  }
+  @keyframes sass{
+    100%{
+        stroke-dashoffset: 120;
+    }
+  }
+  @keyframes nodejs{
+    100%{
+        stroke-dashoffset: 236;
+    }
+  }
+  @keyframes ExpressJs{
+    100%{
+        stroke-dashoffset: 259;
+    }
+  }
+  @keyframes MongoDB{
+    100%{
+        stroke-dashoffset: 141;
+    }
+  }

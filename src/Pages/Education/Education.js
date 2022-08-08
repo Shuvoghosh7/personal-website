@@ -6,7 +6,7 @@ const Education = () => {
         <div className="my-12 lg:mx-28 mx-5 educations" id='education-part'>
         <div class="education mx-20 my-12" id="education">
 
-        <h1 className='text-2xl mb-12 mt-2 ml-5 lg:flex justify-end font-cursive  lg:mr-16 about-title'>My Education.....</h1>
+        <h1 className='text-2xl mb-12 mt-2 ml-5 lg:flex justify-end font-cursive  lg:mr-1 about-title'>My Education.....</h1>
 
             <div class="box-container grid lg:grid-cols-3 gap-10 ">
                 <div class="box" style={{ borderLeft: ".2rem solid white" }} >

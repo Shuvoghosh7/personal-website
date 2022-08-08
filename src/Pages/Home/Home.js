@@ -1,19 +1,10 @@
 import React from 'react';
-import AboutMe from '../AboutMe/AboutMe';
-import Education from '../Education/Education';
-
-import Intro from '../Intro/Intro';
-import Skills from '../Skills/Skills';
+import Introduction from '../Introduction/Introduction';
 
 const Home = () => {
     return (
         <div>
-            <Intro/>
-            <AboutMe/>
-            <Education/>
-            <Skills/>
-           
-            
+            <Introduction/>
         </div>
     );
 };

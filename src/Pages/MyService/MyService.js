@@ -26,10 +26,10 @@ const MyService = () => {
                 <div className='service-broder'>
                     <div className='service-card'>
                         <div className='service-image'>
-                            <img src={webDesign} alt="" />
+                            <img src={react} alt="" />
                         </div>
                         <div className='service-text'>
-                            <h1>Web Design</h1>
+                            <h1>React App</h1>
                             <p>Web Design, Landing Page Design, App development, Mobile an Website Design an expert web designer and developer. Contrary to popular belief ...</p>
                         </div>
                     </div>
@@ -39,10 +39,10 @@ const MyService = () => {
                 <div className='service-broder'>
                     <div className='service-card'>
                         <div className='service-image'>
-                            <img src={webDesign} alt="" />
+                            <img src={webDevelopment} alt="" />
                         </div>
                         <div className='service-text'>
-                            <h1>Web Design</h1>
+                            <h1>Web Development</h1>
                             <p>Web Design, Landing Page Design, App development, Mobile an Website Design an expert web designer and developer. Contrary to popular belief ...</p>
                         </div>
                     </div>

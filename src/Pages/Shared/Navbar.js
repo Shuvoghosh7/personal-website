@@ -23,10 +23,8 @@ const Navbar = ({ children }) => {
                                     <li><Link to='/' className='rounded-lg bg-transparent'>Home</Link></li>
                                     <li><a className='bg-transparent' href="#about-me">About</a></li>
                                     <li><a href="#education-part">Education</a></li>
-
-                                    <li><Link to='/project' className='rounded-lg bg-transparent'>Project</Link></li>
-                                    <li><Link to='/skill' className='rounded-lg bg-transparent'>Skill</Link></li>
-                                    {/* <li><a href="#my-skills">Skills</a></li> */}
+                                    <li><a href="#my-skills">Skills</a></li>
+                                    <li className='rounded-lg bg-transparent'><a href="#projects">Projects</a></li>
                                     <li><Link to="/blog" className='rounded-lg bg-transparent'>Blog</Link></li>
 
                                 </ul>

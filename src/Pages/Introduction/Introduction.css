@@ -15,7 +15,7 @@
     letter-spacing: -0.00833em;
 }
 .resume{
-    background: linear-gradient(270deg,#ae216b,#df4454,#f67a36);;
+    background: linear-gradient(270deg,#ae216b,#df4454,#f67a36);
     display: inline-block;
     padding: 10px;
     cursor: pointer;

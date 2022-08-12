@@ -12,7 +12,7 @@ import Slider from "react-slick";
 const Projects = () => {
     return (
         <div className='my-12 lg:mx-28 mx-5 projects' id='projects'>
-            <h1 className='text-3xl mb-12 mt-2 ml-5 lg:flex justify-end font-cursive lg:mr-16 about-title'>My Projects.....</h1>
+            <h1 className='text-3xl mb-12 mt-10 ml-5 lg:flex justify-end font-cursive lg:mr-16 about-title'>My Projects.....</h1>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-12 gallary'>
 
                 {/*  project 1 */}

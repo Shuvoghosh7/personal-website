@@ -24,6 +24,7 @@ const Navbar = ({ children }) => {
                                     <li><a className='bg-transparent' href="#about-me">About</a></li>
                                     <li><a href="#education-part">Education</a></li>
                                     <li><a href="#my-skills">Skills</a></li>
+                                    <li><a href="#my-service">Service</a></li>
                                     <li className='rounded-lg bg-transparent'><a href="#projects">Projects</a></li>
                                     <li><Link to="/blog" className='rounded-lg bg-transparent'>Blog</Link></li>
 

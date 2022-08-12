@@ -5,8 +5,8 @@ import webDevelopment from '../../Assets/service/web development.png'
 import react from '../../Assets/service/react.png'
 const MyService = () => {
     return (
-        <div className='my-12 lg:mx-28 mx-5 service'>
-            <h1 className='text-3xl mb-12 mt-2 ml-5 lg:flex justify-end font-cursive lg:mr-16 about-title'>My Service.....</h1>
+        <div className='mb-12 lg:mx-28 mx-5 service' id='my-service'>
+            <h1 className='text-3xl mb-12 mt-10 ml-5 lg:flex justify-end font-cursive lg:mr-16 about-title'>My Service.....</h1>
             <div className='grid lg:grid-cols-3 gap-16 mt-8'>
 
                {/*  service-1 */}

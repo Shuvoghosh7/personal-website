@@ -13,7 +13,7 @@ import Tailwindcss from './SkillSubject/Tailwindcss';
 const Skills = () => {
     return (
         <div className='my-12 lg:mx-28 mx-5 my-skills' id='my-skills'>
-        <h1 className='text-2xl mb-5 mt-2 ml-5 lg:flex justify-end font-cursive lg:mr-16 about-title'>My Skill.....</h1>
+        <h1 className='text-2xl mb-8 mt-8 ml-5 lg:flex justify-end font-cursive lg:mr-16 about-title'>My Skill.....</h1>
         <div className=' grid lg:grid-cols-5 md:grid-cols-3 gap-5 lg:ml-0 ml-6'>
          <JavaScript/>
          <ReactJs/>

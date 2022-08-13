@@ -9,7 +9,7 @@ const Navbar = ({ children }) => {
 
                 <div class="w-full navbar bg-[#202428] fixed top-0 z-50 lg:px-12 text-[#FF2E59] font-bold nav-bar">
 
-                    <div class="flex-1 px-2 mx-2 mr-24 name">Shuvo Gosh</div>
+                    <div class="flex-1 px-2 mx-2 mr-24 name"><Link to="/">Shuvo Gosh</Link></div>
                     <div class="flex-none lg:hidden">
                         <label for="my-drawer-3" class="btn btn-square btn-ghost">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -19,8 +19,8 @@ const Navbar = ({ children }) => {
                     <div class="flex-auto hidden lg:block ">
                         <div className='flex justify-between items-center'>
                             <div>
-                                <ul class="menu menu-horizontal gap-x-2 ">
-                                    <li><Link to='/' className='rounded-lg bg-transparent'>Home</Link></li>
+                                <ul class="menu menu-horizontal gap-x-2 text-xl">
+                                    <li><a className='rounded-lg bg-transparent' href="#intro">Home</a></li>
                                     <li><a className='bg-transparent' href="#about-me">About</a></li>
                                     <li><a href="#education-part">Education</a></li>
                                     <li><a href="#my-skills">Skills</a></li>
@@ -32,7 +32,10 @@ const Navbar = ({ children }) => {
                             </div>
                             <div>
                                 <ul>
-                                    <li><Link to="/contuct" className='rounded-lg btn bg-transparent rounded-3xl text-[#FF2E59] font-bold'>Hire Me</Link>
+                                    <li>
+                                        <a className='rounded-lg btn bg-transparent rounded-3xl text-[#FF2E59] font-bold' href="#contact">
+                                            Contact Me
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -43,14 +46,19 @@ const Navbar = ({ children }) => {
             </div>
             <div class="drawer-side">
                 <label for="my-drawer-3" class="drawer-overlay"></label>
-                <ul class="menu p-4 overflow-y-auto w-56 bg-[#202428] text-[#FF2E59] text-xl">
-                    <li><Link to='/' className='rounded-lg bg-transparent'>Home</Link></li>
-                    <li><Link to='#about-me' className='rounded-lg bg-transparent'>About</Link></li>
-                    <li><Link to='/education' className='rounded-lg bg-transparent'>Education</Link></li>
-                    <li><Link to='/project' className='rounded-lg bg-transparent'>Project</Link></li>
-                    <li><Link to="/skills" className='rounded-lg bg-transparent'>Skills</Link></li>
-                    <li><Link to="/blog" className='rounded-lg bg-transparent'>Blog</Link></li>
-                    <li><Link to="/contuct" className='rounded-lg bg-transparent'>Contuct</Link></li>
+                <ul class="menu p-4 overflow-y-auto w-56 bg-[#202428] text-[#FF2E59] text-2xl">
+                    <li><a className='rounded-lg bg-transparent' href="#intro">Home</a></li>
+                    <li><a className='bg-transparent' href="#about-me">About</a></li>
+                    <li><a href="#education-part">Education</a></li>
+                    <li><a href="#my-skills">Skills</a></li>
+                    <li><a href="#my-service">Service</a></li>
+                    <li className='rounded-lg bg-transparent'><a href="#projects">Projects</a></li>
+                    {/* <li><Link to="/blog" className='rounded-lg bg-transparent'>Blog</Link></li> */}
+                    <li>
+                        <a className='rounded-lg  bg-transparent  text-[#FF2E59] font-bold' href="#contact">
+                            Contact Me
+                        </a>
+                    </li>
 
                 </ul>
 

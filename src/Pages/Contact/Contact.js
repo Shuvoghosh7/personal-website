@@ -22,8 +22,8 @@ const Contact = () => {
             });
     };
     return (
-        <div className='my-12 lg:mx-28 mx-5 contact'>
-            <h1 className='text-2xl mb-12 mt-10 ml-5 lg:flex justify-end font-cursive  lg:mr-10 about-title'>Contact Me.....</h1>
+        <div className='my-12 lg:mx-28 mx-5 contact' id='contact'>
+            <h1 className='text-2xl mb-12 mt-12 ml-5 lg:flex justify-end font-cursive  lg:mr-10 about-title'>Contact Me.....</h1>
 
             <div className='contact-form lg:mx-20'>
                 <h1 className='text-3xl uppercase text-center font-cursive'>Get In Touch</h1>

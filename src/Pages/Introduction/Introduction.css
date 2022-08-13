@@ -21,6 +21,7 @@
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .resume:hover{
     background:  linear-gradient(0deg,#692074,#ae216b,#df4454,#f67a36,#f1b51b);;

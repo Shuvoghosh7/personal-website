@@ -5,9 +5,9 @@ import Skills from "./Pages/Skills/Skills";
 import MyService from "./Pages/MyService/MyService";
 
 function App() {
+ 
   return (
-    <div>
-      
+    <div className="scroll-smooth">
        <Navbar>
         <Routes>
           <Route path="/" element={<Home/>}/>

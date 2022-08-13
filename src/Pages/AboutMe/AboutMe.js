@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <div className="my-12 lg:mx-28 mx-5 about-me" id='about-me'>
             <div className='grid lg:grid-cols-3'>
-                <div className='about-image lg:mt-16 lg:ml-12 md:ml-52 ml-20'>
+                <div className='about-image lg:mt-20 lg:ml-12 md:ml-52 ml-20'>
                     <img className='lg:w-[300px] 
                    text-[#202428]' src={aboutme} alt="" />
                 </div>

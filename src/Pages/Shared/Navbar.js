@@ -19,7 +19,7 @@ const Navbar = ({ children }) => {
                     <div class="flex-auto hidden lg:block ">
                         <div className='flex justify-between items-center'>
                             <div>
-                                <ul class="menu menu-horizontal gap-x-2 text-xl">
+                                <ul class="menu menu-horizontal gap-x-2">
                                     <li><a   className='rounded-lg bg-transparent' href="#intro">Home</a></li>
                                     <li><a   className='bg-transparent' href="#about-me">About</a></li>
                                     <li><a smooth={true} href="#education-part">Education</a></li>

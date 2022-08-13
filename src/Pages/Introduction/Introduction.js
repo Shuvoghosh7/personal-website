@@ -10,7 +10,7 @@ import './Introduction.css';
 
 const Introduction = () => {
     return (
-        <div className='mt-24 about lg:mx-28 mx-5' id='intro'>
+        <div className='mt-32 about lg:mx-28 mx-5' id='intro'>
             <div className='lg:flex justify-around items-center my-12'>
                 <div className='ml-5'>
                     <h1 className='text-[#FF2E59] text-5xl font-sans-serif'>Hello! I'm</h1>

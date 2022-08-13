@@ -5,7 +5,7 @@ import project3 from '../../Assets/p3.png'
 import project4 from '../../Assets/p4.PNG'
 import project5 from '../../Assets/p5.PNG'
 import './Projects.css'
-import Slider from "react-slick";
+
 
 
 

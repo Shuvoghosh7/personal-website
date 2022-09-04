@@ -26,7 +26,7 @@ const Navbar = ({ children }) => {
                                     <li><a href="#my-skills">Skills</a></li>
                                     <li><a href="#my-service">Service</a></li>
                                     <li className='rounded-lg bg-transparent'><a href="#projects">Projects</a></li>
-                                    <li><Link to=" " className='rounded-lg bg-transparent'>Blog</Link></li>
+                                    {/* <li><Link to=" " className='rounded-lg bg-transparent'>Blog</Link></li> */}
                                     
 
                                 </ul>

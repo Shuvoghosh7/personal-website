@@ -28,7 +28,7 @@ const Projects = () => {
                         </div>
                         <div className="details">
                             <div className='content'>
-                                <p className='text-2xl lg:mb-8 md:mb-8 mb-3'>Computer Parts Manufacturer</p>
+                                <p className='text-xl lg:mb-8 md:mb-8 mb-3'>Computer Parts Manufacturer</p>
                                 <h1 className='mb-5'><a href="https://computer-parts-manufactu-ed97b.web.app/" target="_blank">Live Site Link</a></h1>
                                 <h1 className='mb-5'><a href="https://github.com/Shuvoghosh7/-manufacturer-website-client-side" target="_blank">Github Client Site link</a></h1>
                                 <h1><a href="https://github.com/Shuvoghosh7/-manufacturer-website-server-side" target="_blank">Github Server Site link</a></h1>

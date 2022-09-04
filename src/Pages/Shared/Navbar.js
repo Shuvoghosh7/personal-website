@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import './Navbar.css'
 const Navbar = ({ children }) => {
     return (
@@ -20,15 +21,13 @@ const Navbar = ({ children }) => {
                         <div className='flex justify-between items-center'>
                             <div>
                                 <ul class="menu menu-horizontal gap-x-2">
-                                    <li><a   className='rounded-lg bg-transparent' href="#intro">Home</a></li>
-                                    <li><a   className='bg-transparent' href="#about-me">About</a></li>
+                                    <li><a className='rounded-lg bg-transparent' href="#intro">Home</a></li>
+                                    <li><a className='bg-transparent' href="#about-me">About</a></li>
                                     <li><a smooth={true} href="#education-part">Education</a></li>
                                     <li><a href="#my-skills">Skills</a></li>
                                     <li><a href="#my-service">Service</a></li>
                                     <li className='rounded-lg bg-transparent'><a href="#projects">Projects</a></li>
                                     {/* <li><Link to=" " className='rounded-lg bg-transparent'>Blog</Link></li> */}
-                                    
-
                                 </ul>
                             </div>
                             <div>

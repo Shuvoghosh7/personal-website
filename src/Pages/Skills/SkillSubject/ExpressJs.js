@@ -5,7 +5,7 @@ const ExpressJs = () => {
     useEffect(() => {
         let counter = skill;
         setInterval(() => {
-            if (counter === 45) {
+            if (counter === 70) {
                 clearInterval()
             } else {
                 counter += 1

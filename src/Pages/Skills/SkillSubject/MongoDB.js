@@ -5,7 +5,7 @@ const MongoDB = () => {
     useEffect(() => {
         let counter = skill;
         setInterval(() => {
-            if (counter === 70) {
+            if (counter === 90) {
                 clearInterval()
             } else {
                 counter += 1

@@ -5,7 +5,7 @@ const NodeJs = () => {
     useEffect(() => {
         let counter = skill;
         setInterval(() => {
-            if (counter === 50) {
+            if (counter === 80) {
                 clearInterval()
             } else {
                 counter += 1

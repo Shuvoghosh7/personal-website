@@ -11,7 +11,7 @@ const NodeJs = () => {
                 counter += 1
                 setSkill(counter)
             }
-        }, 35)
+        }, 22)
     }, [])
     return (
         <div>

@@ -11,7 +11,7 @@ const MongoDB = () => {
                 counter += 1
                 setSkill(counter)
             }
-        }, 30)
+        }, 22)
     }, [])
     return (
         <div>

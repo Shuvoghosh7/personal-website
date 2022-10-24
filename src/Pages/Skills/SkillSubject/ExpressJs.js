@@ -11,7 +11,7 @@ const ExpressJs = () => {
                 counter += 1
                 setSkill(counter)
             }
-        }, 40)
+        }, 23)
     }, [])
     return (
         <div>

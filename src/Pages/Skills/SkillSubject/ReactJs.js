@@ -24,7 +24,6 @@ const ReactJs = () => {
                         </div>
                     </div>
                 </div>
-
                 <svg className='svg-image' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
                     <defs>
                         <linearGradient id="GradientColor">

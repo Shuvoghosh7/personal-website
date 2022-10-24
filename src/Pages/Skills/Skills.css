@@ -116,16 +116,16 @@ circle{
   }
   @keyframes nodejs{
     100%{
-        stroke-dashoffset: 236;
+        stroke-dashoffset: 100;
     }
   }
   @keyframes ExpressJs{
     100%{
-        stroke-dashoffset: 259;
+        stroke-dashoffset: 125;
     }
   }
   @keyframes MongoDB{
     100%{
-        stroke-dashoffset: 141;
+        stroke-dashoffset: 90;
     }
   }
